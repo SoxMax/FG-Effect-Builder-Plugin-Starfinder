@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <string name="category_ability">Ability</string>
+    <string name="ability_check">Ability Check</string>
+    <string name="all_abilities">All Abilities</string>
+
+    <string name="category_attack">Attacks</string>
+    <string name="effect_atk">Attack</string>
+    <string name="effect_cmb">Combat Maneuver Bonus (CMB)</string>
+    <string name="effect_dmg">Damage</string>
+    <string name="effect_dmgo">Damage per Turn</string>
+    <string name="effect_dmgtype">Damage Type</string>
+    <string name="effect_cc">Critical Confirmation</string>
+
+    <string name="category_defense">Defense</string>
+    <string name="effect_ac">Armor Class (AC)</string>
+    <string name="effect_cmd">Combat Maneuver Defense (CMD)</string>
+    <string name="effect_save">Save</string>
+    <string name="allsaves">All Saves</string>
+
+    <string name="category_susceptibility">Susceptibility</string>
+    <string name="effect_dr">Damage Reduction (DR)</string>
+    <string name="effect_resist">Resistance (Resist)</string>
+    <string name="effect_immune">Immunity</string>
+    <string name="effect_vuln">Vulnerability</string>
+    
+    <string name="category_heal">Healing</string>
+    <string name="effect_heal">Heal</string>
+    <string name="effect_fheal">Fast Healing</string>
+    <string name="effect_regen">Regeneration</string>
+    
+    <string name="category_spell">Spells</string>
+    <string name="effect_clc">Caster Level Check</string>
+    <string name="effect_dmgs">Spell Damage</string>
+    <string name="effect_dmgstype">Spell Damage Type</string>
+    
+    <string name="category_misc">Miscellaneous</string>
+    <string name="effect_init">Initiative</string>
+    <string name="effect_skill">Skill</string>
+    <string name="effect_nlvl">Negative Level</string>
+    <string name="effect_speed">Speed</string>
+    
+    <string name="category_situational">Situational</string>
+    <string name="effect_conc">Concealment</string>
+    <string name="effect_tconc">Total Concealment</string>
+    <string name="effect_pcover">Partial Cover</string>
+    <string name="effect_cover">Cover</string>
+    <string name="effect_scover">Superior Cover</string>
+    
+    <string name="category_conditional">Conditionals</string>
+    <string name="if">If Self</string>
+    <string name="ift">If Target</string>
+    <string name="condition">Condition</string>
+    <string name="alignment">Alignment</string>
+    <string name="size">Size</string>
+    <string name="creature_type">Creature Type</string>
+    <string name="health">Health</string>
+    <string name="custom_condition">Custom Condition</string>
+</root>

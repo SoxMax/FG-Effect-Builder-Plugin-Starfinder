@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_CMB">
+        <script file="editors/effect/scripts/CMB.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_dice_value />
+
+            <combobox_eb_bonus_type name="effect_bonus_type">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </combobox_eb_bonus_type>
+
+            <label_eb>
+                <static textres="opportunity_bonus"/>
+            </label_eb>
+            <checkbox_eb_valueholder name="effect_opportunity"/>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_CMB">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="CMB",
+                    labelres="effect_cmb",
+                    windowclass="effect_CMB"
+                }
+            )
+        end
+    </script>
+</root>

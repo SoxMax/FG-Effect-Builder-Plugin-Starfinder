@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3">
+	<properties>
+		<name>Feature: Effect Builder Plugin - Starfinder</name>
+		<version>0.1.0</version>
+		<author>SoxMax</author>
+		<description>Plugin for the Effect Builder providing Starfinder effects</description>
+		<loadorder>2</loadorder>
+		<ruleset>
+			<name>SFRPG</name>
+		</ruleset>
+	</properties>
+	
+	<announcement text="https://forge.fantasygrounds.com/shop/items/464/view \r Effect Builder Plugin - Starfinder v0.1.0 \r Plugin for the Effect Builder providing Starfinder effects" font="emotefont" />
+	
+	<base>
+		<!-- Templates -->
+		<includefile source="common/old/cyclers.xml" />
+		<includefile source="common/template_combobox.xml" />
+		<includefile source="common/template_cycler.xml" />
+		<includefile source="common/template_subwindow.xml" />
+
+		<!-- Strings -->
+		<includefile source="strings/strings_common.xml" />
+		<includefile source="editors/strings/strings_effect_editor.xml" />
+
+		<!-- Editors -->
+		<includefile source="editors/effect/ABILITY.xml" />
+		<includefile source="editors/effect/ABIL.xml" />
+		<includefile source="editors/effect/AC.xml" />
+		<includefile source="editors/effect/ATK.xml" />
+		<includefile source="editors/effect/CC.xml" />
+		<includefile source="editors/effect/CLC.xml" />
+		<includefile source="editors/effect/CMB.xml" />
+		<includefile source="editors/effect/CMD.xml" />
+		<includefile source="editors/effect/DMG.xml" />
+		<includefile source="editors/effect/DMGO.xml" />
+		<includefile source="editors/effect/DMGTYPE.xml" />
+		<includefile source="editors/effect/DR.xml" />
+		<includefile source="editors/effect/FHEAL.xml" />
+		<includefile source="editors/effect/HEAL.xml" />
+		<includefile source="editors/effect/IMMUNE.xml" />
+		<includefile source="editors/effect/INIT.xml" />
+		<includefile source="editors/effect/NLVL.xml" />
+		<includefile source="editors/effect/REGEN.xml" />
+		<includefile source="editors/effect/RESIST.xml" />
+		<includefile source="editors/effect/SAVE.xml" />
+		<includefile source="editors/effect/SITUATION.xml" />
+		<includefile source="editors/effect/SKILL.xml" />
+		<includefile source="editors/effect/SPEED.xml" />
+		<includefile source="editors/effect/VULN.xml" />
+
+		<includefile source="editors/conditional/conditional_ALIGN.xml" />
+		<includefile source="editors/conditional/conditional_CONDITION.xml" />
+		<includefile source="editors/conditional/conditional_CREATURE_TYPE.xml" />
+		<includefile source="editors/conditional/conditional_CUSTOM.xml" />
+		<includefile source="editors/conditional/conditional_HEALTH.xml" />
+		<includefile source="editors/conditional/conditional_SIZE.xml" />
+	</base>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="combobox_eb_condition">
+        <combobox_eb_valueholder name="condition">
+            <script>
+                function onInit()
+                    super.onInit()
+                    addItems(DataCommon.conditions)
+                    add("evasion")
+                    add("improved evasion")
+                    add("CA")
+                    add("GRANTCA")
+                end
+            </script>
+            <empty textres="condition_type"/>
+        </combobox_eb_valueholder>
+    </template>
+
+    <template name="combobox_eb_creature_type">
+        <combobox_eb_valueholder name="creature_type">
+            <script>
+                function onInit()
+                    super.onInit()
+                    add("")
+                    addItems(DataCommon.creaturetype)
+                    addItems(DataCommon.creaturesubtype)
+                end
+            </script>
+            <empty textres="creature_type"/>
+        </combobox_eb_valueholder>
+    </template>
+</root>

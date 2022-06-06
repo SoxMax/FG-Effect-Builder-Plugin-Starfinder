@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="conditional_CREATURE_TYPE">
+        <script file="editors/conditional/scripts/conditional_CREATURE_TYPE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+            
+            <cycler_eb_ifs />
+
+            <subwindow_eb_creature_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_conditional_CREATURE_TYPE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_conditional",
+                {
+                    value="CREATURE_TYPE",
+                    labelres="creature_type",
+                    windowclass="conditional_CREATURE_TYPE"
+                }
+            )
+        end
+    </script>
+</root>
