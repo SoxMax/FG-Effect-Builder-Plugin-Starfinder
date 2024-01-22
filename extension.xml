@@ -2,7 +2,7 @@
 <root version="3.3">
 	<properties>
 		<name>Feature: Effect Builder Plugin - Starfinder</name>
-		<version>1.1.1</version>
+		<version>1.2.0</version>
 		<author>SoxMax</author>
 		<description>Plugin for the Effect Builder providing Starfinder effects</description>
 		<loadorder>2</loadorder>
@@ -11,7 +11,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://forge.fantasygrounds.com/shop/items/678/view \r Effect Builder Plugin - Starfinder v1.1.1 \r Plugin for the Effect Builder providing Starfinder effects" font="emotefont" />
+	<announcement text="https://forge.fantasygrounds.com/shop/items/678/view \r Effect Builder Plugin - Starfinder v1.2.0 \r Plugin for the Effect Builder providing Starfinder effects" font="emotefont" />
 	
 	<base>
 		<!-- Templates -->
